@@ -27,7 +27,7 @@ header{
     padding-right: 1rem;
     font-weight: 600;
 }
-nav .about{
+nav.about{
     color: #a9508b;
 }
 span{
@@ -41,7 +41,7 @@ span{
     justify-content: space-between;
     align-items: center;
     color: white;
-    padding: 1.5rem;
+    padding: 1.5rem ;
 }
 input{
     height: 1.7rem;
@@ -54,12 +54,13 @@ input{
 }
 section{
     display: flex;
-    margin-top: 3rem;
+    
     gap: 3rem;
     
 }
 .par-left{
     padding: 0 4rem;
+    margin-top: 3rem;
     
 }
 h3{
@@ -78,6 +79,7 @@ h3{
     background-color: #35424a;
     color: white;
     padding: 1rem;margin-right: 2rem;
+    margin-top: 2rem;
 }
 .par-left p{
     font-size: 1.1rem;
