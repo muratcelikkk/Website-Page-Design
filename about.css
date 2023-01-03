@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+header{
+    display: flex;
+    background-color: #35424a;
+    height: 80px;
+    border-bottom: 2px solid #a9508b;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left h1{
+    font-size: 24px;
+    font-weight: 700;
+    color:#a9508b; 
+    padding: 1rem;
+}
+.right a{
+    color: white;
+    text-decoration: none;
+    padding-right: 1rem;
+    font-weight: 600;
+}
+nav .about{
+    color: #a9508b;
+}
+span{
+    color: white;
+}
+
+.subs{
+    display: flex;
+    background-color: #35424a;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 1.5rem;
+}
+input{
+    height: 1.7rem;
+}
+.btn{
+    width: 6rem;
+    background-color: #e8491d;
+    color: white;
+    border: none;font-size: 0.8rem;
+}
+section{
+    display: flex;
+    margin-top: 3rem;
+    gap: 3rem;
+    
+}
+.par-left{
+    padding: 0 4rem;
+    
+}
+h3{
+    font-size: 1.2em;
+}
+.par1{
+    padding: 1rem 0;
+}
+.par2{
+    background-color: #35424a;
+    padding: 1rem;
+    color: white;
+    font-weight: 600;
+}
+.par-right{
+    background-color: #35424a;
+    color: white;
+    padding: 1rem;margin-right: 2rem;
+}
+.par-left p{
+    font-size: 1.1rem;
+}
+.par-right p{
+    font-size: 1.1rem;
+}
+.par-right h3{
+    padding: 1.5rem 0;
+}
+main{
+    height: 38rem;
+}
+
+
+
+footer{
+    background-color: #35424a;
+    text-align: center;
+    color: white;
+    margin-top: 4rem;
+    height: 8rem;
+    font-size: 1.1rem;
+    padding: 1.6rem;
+}
+footer img{
+    margin-top: 0.8rem;
+    width: 13rem;
+}
